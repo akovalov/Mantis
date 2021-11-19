@@ -361,7 +361,8 @@ public class CropViewController: UIViewController {
                                              intialMaskFrame: .zero,
                                              maskFrame: maskFrame,
                                              scrollBounds: .zero,
-                                             imageViewBounds: .zero)
+                                             imageViewBounds: .zero,
+                                             imageViewFrame: .zero)
         return transformantion
     }
     

@@ -564,7 +564,7 @@ extension CropView {
             intialMaskFrame: getInitialCropBoxRect(),
             maskFrame: gridOverlayView.frame,
             scrollBounds: scrollView.bounds,
-            imageViewFrame: imageContainer.frame
+            imageViewBounds: imageContainer.bounds
         )
         
         guard let croppedImage = image.getCroppedImage(byCropInfo: info) else {

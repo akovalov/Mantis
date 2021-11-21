@@ -36,7 +36,7 @@ let minimumAspectRatio: CGFloat = 0
 let hotAreaUnit: CGFloat = 32
 let cropViewPadding:CGFloat = 14.0
 
-class CropView: UIView {
+public class CropView: UIView {
 
     public var dialConfig = Mantis.Config().dialConfig
 

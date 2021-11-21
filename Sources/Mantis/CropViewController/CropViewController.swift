@@ -166,8 +166,6 @@ public class CropViewController: UIViewController {
     override public func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .black
-        
         createCropView()
         createCropToolbar()
         if config.cropToolbarConfig.ratioCandidatesShowType == .alwaysShowRatioList && config.cropToolbarConfig.includeFixedRatioSettingButton {
